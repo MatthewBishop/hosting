@@ -1,0 +1,121 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "protocol",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protocol-1.0-SNAPSHOT.jar",
+          "url": "protocol-1.0-SNAPSHOT.jar",
+          "size": 49468,
+          "sha512": "28c9a7002b5760cee9b2a807c9520a3662279c1de2d723962b969b657da344ffbb08934cac22aec499234915279efa0a094e3787f57af9d85781744ba4ba478c",
+          "sha256": "06cd8663eaca54faa6ead80d49aef5b0f9498ff5735a9d09a8e25da4c83504a8",
+          "sha1": "0fb6e498c8dd60d558c7d064693927fb908f534e",
+          "md5": "94f3d4f4f66ce6428822add6b6e33f61"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.107.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport"
+        },
+        {
+          "group": "net.rsprot",
+          "module": "buffer",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "crypto",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "compression",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protocol-1.0-SNAPSHOT.jar",
+          "url": "protocol-1.0-SNAPSHOT.jar",
+          "size": 49468,
+          "sha512": "28c9a7002b5760cee9b2a807c9520a3662279c1de2d723962b969b657da344ffbb08934cac22aec499234915279efa0a094e3787f57af9d85781744ba4ba478c",
+          "sha256": "06cd8663eaca54faa6ead80d49aef5b0f9498ff5735a9d09a8e25da4c83504a8",
+          "sha1": "0fb6e498c8dd60d558c7d064693927fb908f534e",
+          "md5": "94f3d4f4f66ce6428822add6b6e33f61"
+        }
+      ]
+    }
+  ]
+}
