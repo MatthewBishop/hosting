@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "osrs-221-model",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-model-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-model-1.0-SNAPSHOT.jar",
+          "size": 879170,
+          "sha512": "a908f83e723766e92c4bf5763ffab51f6469243360ea277fc69b3dc6f7e034d6b20defcb50219e0c279f118a283566e327cb131fad7bda79f9447f12cd16d7a7",
+          "sha256": "a3e716997a79a0bd97068e5894dea623ce9ac73d78ed093d24607edac3fb8a28",
+          "sha1": "a11db47b619186f6f8cccb8b8e680d08b99c396f",
+          "md5": "fdc18b184f2944c526dbfae22d2a169b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.107.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-pool2",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "buffer",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "compression",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "crypto",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "protocol",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-221-internal",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-221-common",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-model-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-model-1.0-SNAPSHOT.jar",
+          "size": 879170,
+          "sha512": "a908f83e723766e92c4bf5763ffab51f6469243360ea277fc69b3dc6f7e034d6b20defcb50219e0c279f118a283566e327cb131fad7bda79f9447f12cd16d7a7",
+          "sha256": "a3e716997a79a0bd97068e5894dea623ce9ac73d78ed093d24607edac3fb8a28",
+          "sha1": "a11db47b619186f6f8cccb8b8e680d08b99c396f",
+          "md5": "fdc18b184f2944c526dbfae22d2a169b"
+        }
+      ]
+    }
+  ]
+}

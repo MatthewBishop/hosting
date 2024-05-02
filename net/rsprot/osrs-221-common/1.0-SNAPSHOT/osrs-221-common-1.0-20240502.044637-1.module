@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "osrs-221-common",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-common-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-common-1.0-SNAPSHOT.jar",
+          "size": 6715,
+          "sha512": "93d5cae93b5a64110fc05c3a67c812ff33f244a70923c95af73fa98129a2c295bfb2aa2879cea697e1084ea0f63f6cd6da97045bb493c08cfac0408c8780c4db",
+          "sha256": "08626eee57683382cafb946c3cb1352121a60d4d26807426c35b4e75f0505020",
+          "sha1": "18802dab00ec4fd9a747607abda773c86e6f9dd9",
+          "md5": "8d8560330fec1a974111fd1e77513981"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.107.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "net.rsprot",
+          "module": "protocol",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-common-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-common-1.0-SNAPSHOT.jar",
+          "size": 6715,
+          "sha512": "93d5cae93b5a64110fc05c3a67c812ff33f244a70923c95af73fa98129a2c295bfb2aa2879cea697e1084ea0f63f6cd6da97045bb493c08cfac0408c8780c4db",
+          "sha256": "08626eee57683382cafb946c3cb1352121a60d4d26807426c35b4e75f0505020",
+          "sha1": "18802dab00ec4fd9a747607abda773c86e6f9dd9",
+          "md5": "8d8560330fec1a974111fd1e77513981"
+        }
+      ]
+    }
+  ]
+}
