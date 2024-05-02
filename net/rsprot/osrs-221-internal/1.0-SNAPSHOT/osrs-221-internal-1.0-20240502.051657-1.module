@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "osrs-221-internal",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-internal-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-internal-1.0-SNAPSHOT.jar",
+          "size": 103497,
+          "sha512": "e9cb83c873e2a0c9e463c8627081c62d188f29abeebe6e53aecbc610ffaafe301c3e7717db487f926afe2cf1572dc2f533f08cf0a25de8aeb1c25b44b3c2db03",
+          "sha256": "9a621d6ae3b9a2c4e5f4c63101df82fbe59ea4878aefe0d4fc17e30789e3c116",
+          "sha1": "ddfa370ab2ea5e6b1a76107aafc01bfa9ec7bc33",
+          "md5": "a5930aa89cbb991bae229228c12b515e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.107.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport"
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-pool2",
+          "version": {
+            "requires": "2.12.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "buffer",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "compression",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "protocol",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-221-common",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-internal-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-internal-1.0-SNAPSHOT.jar",
+          "size": 103497,
+          "sha512": "e9cb83c873e2a0c9e463c8627081c62d188f29abeebe6e53aecbc610ffaafe301c3e7717db487f926afe2cf1572dc2f533f08cf0a25de8aeb1c25b44b3c2db03",
+          "sha256": "9a621d6ae3b9a2c4e5f4c63101df82fbe59ea4878aefe0d4fc17e30789e3c116",
+          "sha1": "ddfa370ab2ea5e6b1a76107aafc01bfa9ec7bc33",
+          "md5": "a5930aa89cbb991bae229228c12b515e"
+        }
+      ]
+    }
+  ]
+}

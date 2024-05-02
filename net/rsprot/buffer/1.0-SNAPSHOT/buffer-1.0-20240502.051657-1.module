@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "buffer",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "buffer-1.0-SNAPSHOT.jar",
+          "url": "buffer-1.0-SNAPSHOT.jar",
+          "size": 40737,
+          "sha512": "d40d25057e5e398e22a69624320d74a8d7625b58160b9697f9b92f741a7e383619aae005425ed7260de3a0ffbf6fdf9bc1fe9425af0ebdbce0ebc4596069f91d",
+          "sha256": "f4411ab5d6a146c7bbba1ea73a8d21c7ce180c453e9178dba885dbcf5e9b5dd8",
+          "sha1": "4beb6fc37125b2e78dda2e5bdd18a1964769aeff",
+          "md5": "669252ac928f43da3b8879f00c6b087e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.107.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "crypto",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "buffer-1.0-SNAPSHOT.jar",
+          "url": "buffer-1.0-SNAPSHOT.jar",
+          "size": 40737,
+          "sha512": "d40d25057e5e398e22a69624320d74a8d7625b58160b9697f9b92f741a7e383619aae005425ed7260de3a0ffbf6fdf9bc1fe9425af0ebdbce0ebc4596069f91d",
+          "sha256": "f4411ab5d6a146c7bbba1ea73a8d21c7ce180c453e9178dba885dbcf5e9b5dd8",
+          "sha1": "4beb6fc37125b2e78dda2e5bdd18a1964769aeff",
+          "md5": "669252ac928f43da3b8879f00c6b087e"
+        }
+      ]
+    }
+  ]
+}
