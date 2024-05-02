@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.blurite",
+    "module": "pathfinder",
+    "version": "2.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "vyztaxarunc4fbsw7xdgsfz4ra"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 13,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "pathfinder-2.4.5.jar",
+          "url": "pathfinder-2.4.5.jar",
+          "size": 87904,
+          "sha512": "31be9e4c55588f4a549ffc1811df46f735cac0a552cb9e5d878a5cb69ad4b97b018a3fc7ef4b38c9f087176764ede241e580ae5c6d276adc7de2bd9fd05361a1",
+          "sha256": "896c9a6d608e81959e2d216cd8f668a9f13f8c6f7ca0b4347753ccfe26568423",
+          "sha1": "19839715d6a55581658d660a184972754edc9cb6",
+          "md5": "9bef5b30122c5300403cfabee98d1da9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 13,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pathfinder-2.4.5.jar",
+          "url": "pathfinder-2.4.5.jar",
+          "size": 87904,
+          "sha512": "31be9e4c55588f4a549ffc1811df46f735cac0a552cb9e5d878a5cb69ad4b97b018a3fc7ef4b38c9f087176764ede241e580ae5c6d276adc7de2bd9fd05361a1",
+          "sha256": "896c9a6d608e81959e2d216cd8f668a9f13f8c6f7ca0b4347753ccfe26568423",
+          "sha1": "19839715d6a55581658d660a184972754edc9cb6",
+          "md5": "9bef5b30122c5300403cfabee98d1da9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pathfinder-2.4.5-javadoc.jar",
+          "url": "pathfinder-2.4.5-javadoc.jar",
+          "size": 261,
+          "sha512": "518b236bc196f4200687f628757e6a2239aa62763b4e632e4fc6e6a49e58bf045e2c3828408afbb05c686f33b1f243763606af63f4e82235e171fbd57b74eeaf",
+          "sha256": "02c1524fb4ff4d4c8941d14741df3d8cdf8d7b5800e51983734bebb25dd0a221",
+          "sha1": "98c166dcce24f180578d14f466ba3858278eab71",
+          "md5": "38cfd2e59db74008aee5d47796083259"
+        }
+      ]
+    }
+  ]
+}
