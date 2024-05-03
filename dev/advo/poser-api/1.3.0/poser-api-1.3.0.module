@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "poser-api",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "poser-api-1.3.0.jar",
+          "url": "poser-api-1.3.0.jar",
+          "size": 129915,
+          "sha512": "9098d392367e14c6a69024cf9a97ddca375db085ecc24cd898e0a6371cae86ee1342a7c36e8edc0c6c8fb2db0d626fda45d0c3f6f05e710943437bcafa9eb12c",
+          "sha256": "5f725f7622e6949b30e4febd34c3dc2551a889382b18d1adbcc4b9536f567040",
+          "sha1": "5e3d4a8dbf968c615a0a748db947d5c61b8e877f",
+          "md5": "dc91191d80e97023bbb408b17d2f9723"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.jponge",
+          "module": "lzma-java",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.60"
+          }
+        },
+        {
+          "group": "org.joml",
+          "module": "joml",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "poser-api-1.3.0.jar",
+          "url": "poser-api-1.3.0.jar",
+          "size": 129915,
+          "sha512": "9098d392367e14c6a69024cf9a97ddca375db085ecc24cd898e0a6371cae86ee1342a7c36e8edc0c6c8fb2db0d626fda45d0c3f6f05e710943437bcafa9eb12c",
+          "sha256": "5f725f7622e6949b30e4febd34c3dc2551a889382b18d1adbcc4b9536f567040",
+          "sha1": "5e3d4a8dbf968c615a0a748db947d5c61b8e877f",
+          "md5": "dc91191d80e97023bbb408b17d2f9723"
+        }
+      ]
+    }
+  ]
+}
