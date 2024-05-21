@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "osrs-221-shared",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-shared-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-shared-1.0-SNAPSHOT.jar",
+          "size": 76117,
+          "sha512": "7a05a6850095dcfc4162438402d327fc41294155dd34d1e58018bfb68bf5df824eae1489028e351398fa414a81a98265d04ce4ed441c733b863744a7e926e2eb",
+          "sha256": "5c204b99f55e184a526ca6f8adcbbfe593a7fb05243fff37877f10679950712d",
+          "sha1": "d85ed06059dc2073a716f8694d905592a875e649",
+          "md5": "015312b62e5556c9d092e970a709bc8a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.109.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport"
+        },
+        {
+          "group": "net.rsprot",
+          "module": "buffer",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "compression",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "crypto",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "protocol",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-221-model",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-221-internal",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.rsprot",
+          "module": "osrs-221-common",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "osrs-221-shared-1.0-SNAPSHOT.jar",
+          "url": "osrs-221-shared-1.0-SNAPSHOT.jar",
+          "size": 76117,
+          "sha512": "7a05a6850095dcfc4162438402d327fc41294155dd34d1e58018bfb68bf5df824eae1489028e351398fa414a81a98265d04ce4ed441c733b863744a7e926e2eb",
+          "sha256": "5c204b99f55e184a526ca6f8adcbbfe593a7fb05243fff37877f10679950712d",
+          "sha1": "d85ed06059dc2073a716f8694d905592a875e649",
+          "md5": "015312b62e5556c9d092e970a709bc8a"
+        }
+      ]
+    }
+  ]
+}

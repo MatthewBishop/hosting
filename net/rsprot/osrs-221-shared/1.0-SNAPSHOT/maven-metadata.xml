@@ -3,32 +3,32 @@
   <groupId>net.rsprot</groupId>
   <artifactId>osrs-221-shared</artifactId>
   <versioning>
-    <lastUpdated>20240520171704</lastUpdated>
+    <lastUpdated>20240521131510</lastUpdated>
     <snapshot>
-      <timestamp>20240520.171704</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20240521.131510</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0-20240520.171704-1</value>
-        <updated>20240520171704</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0-20240520.171704-1</value>
-        <updated>20240520171704</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20240520.171704-1</value>
-        <updated>20240520171704</updated>
+        <value>1.0-20240521.131510-3</value>
+        <updated>20240521131510</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0-20240520.171704-1</value>
-        <updated>20240520171704</updated>
+        <value>1.0-20240521.131510-3</value>
+        <updated>20240521131510</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0-20240521.131510-3</value>
+        <updated>20240521131510</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20240521.131510-3</value>
+        <updated>20240521131510</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
