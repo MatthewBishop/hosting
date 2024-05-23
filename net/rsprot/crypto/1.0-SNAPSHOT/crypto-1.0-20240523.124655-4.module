@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "crypto",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-1.0-SNAPSHOT.jar",
+          "url": "crypto-1.0-SNAPSHOT.jar",
+          "size": 18753,
+          "sha512": "591262861c97ec28af0c403721e2ed76da1b9c6990d2484f032b0d65267f72bee69ad4e68b1df386d8267a46bb83cd70703f870d7ec6670c4734dd563197e254",
+          "sha256": "47e28b69cd722b8a7c8f0ea20d9b72f38318115184270b03182d6dcff4cfd0f1",
+          "sha1": "11a9ca8405c8e804a8dece6421d35dacc383cb58",
+          "md5": "944905883dc46cdfbc7a03c8f1627d90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.109.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "com.squareup.jnagmp",
+          "module": "jnagmp",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-1.0-SNAPSHOT.jar",
+          "url": "crypto-1.0-SNAPSHOT.jar",
+          "size": 18753,
+          "sha512": "591262861c97ec28af0c403721e2ed76da1b9c6990d2484f032b0d65267f72bee69ad4e68b1df386d8267a46bb83cd70703f870d7ec6670c4734dd563197e254",
+          "sha256": "47e28b69cd722b8a7c8f0ea20d9b72f38318115184270b03182d6dcff4cfd0f1",
+          "sha1": "11a9ca8405c8e804a8dece6421d35dacc383cb58",
+          "md5": "944905883dc46cdfbc7a03c8f1627d90"
+        }
+      ]
+    }
+  ]
+}

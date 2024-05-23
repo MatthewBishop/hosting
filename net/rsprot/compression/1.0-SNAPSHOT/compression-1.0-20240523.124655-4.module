@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.rsprot",
+    "module": "compression",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compression-1.0-SNAPSHOT.jar",
+          "url": "compression-1.0-SNAPSHOT.jar",
+          "size": 14665,
+          "sha512": "3b2b6ef13ff21cb4caa20f54b59d8396bb3d7d0f7599ba401ea82c116de5c8f526a30a8f5f9f906ab31bb187643b0786ac80ed75139402dc7eb7d66407711634",
+          "sha256": "fbd29bf7297426af8c634630dcde426dd7da67298c36976a0869bd7f367c66a9",
+          "sha1": "7b7d84d48bbbdfc294f159168a6755b5618b60bc",
+          "md5": "2630c9efe82127918c4013e6ffb60e2c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.1.109.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer"
+        },
+        {
+          "group": "net.rsprot",
+          "module": "buffer",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compression-1.0-SNAPSHOT.jar",
+          "url": "compression-1.0-SNAPSHOT.jar",
+          "size": 14665,
+          "sha512": "3b2b6ef13ff21cb4caa20f54b59d8396bb3d7d0f7599ba401ea82c116de5c8f526a30a8f5f9f906ab31bb187643b0786ac80ed75139402dc7eb7d66407711634",
+          "sha256": "fbd29bf7297426af8c634630dcde426dd7da67298c36976a0869bd7f367c66a9",
+          "sha1": "7b7d84d48bbbdfc294f159168a6755b5618b60bc",
+          "md5": "2630c9efe82127918c4013e6ffb60e2c"
+        }
+      ]
+    }
+  ]
+}
