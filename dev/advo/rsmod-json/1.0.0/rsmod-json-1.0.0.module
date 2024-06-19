@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "rsmod-json",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-json-1.0.0.jar",
+          "url": "rsmod-json-1.0.0.jar",
+          "size": 3592,
+          "sha512": "5655a3b57147e3abc1429943e6d830773fcad1e3f789d6c9fbf6d404582e358a77501406e005789bb3d473d48f1015f88044f55615463a7dde0f1c54719dd279",
+          "sha256": "2217da4aad9fdd40f0da28716ec886cd47b610152733951b410d24795162ca9b",
+          "sha1": "8b0dabb1e207677d5e4509b0aef4d6237f7d7b44",
+          "md5": "8158e3fc9f6affad1cda9ff27ef83ade"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-json-1.0.0.jar",
+          "url": "rsmod-json-1.0.0.jar",
+          "size": 3592,
+          "sha512": "5655a3b57147e3abc1429943e6d830773fcad1e3f789d6c9fbf6d404582e358a77501406e005789bb3d473d48f1015f88044f55615463a7dde0f1c54719dd279",
+          "sha256": "2217da4aad9fdd40f0da28716ec886cd47b610152733951b410d24795162ca9b",
+          "sha1": "8b0dabb1e207677d5e4509b0aef4d6237f7d7b44",
+          "md5": "8158e3fc9f6affad1cda9ff27ef83ade"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-json-1.0.0-javadoc.jar",
+          "url": "rsmod-json-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "cbf29587f9dd641bcb1778a01f7d9ec248b1e5fc0bbc03f2bf09552d7e549f61319395a7dc7ae0c39a3e7201a59b33f2f882d53643585ac27684160cd69502d4",
+          "sha256": "3877756a5047a6cce3b39dfc03272c56b399782d71b51ac899fd521b4dc530c4",
+          "sha1": "e958affc04c0e260eb472c96560f7f47570b7fb9",
+          "md5": "30aa8af0585ad019f32ee3c4d9679f36"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-json-1.0.0-sources.jar",
+          "url": "rsmod-json-1.0.0-sources.jar",
+          "size": 1702,
+          "sha512": "1a691b07197b3a427f3eb769d44a275067c86f6ff9077e50c5c4570a2c29d126f2333e98de9c0db13e34d9062a01333ff298effefbf54f5bf1daf9ea3f0628cc",
+          "sha256": "d6327dfa84e0ccaffa4d7b9a80d732b623af0c52cacf4f7900c4c7a407ea8212",
+          "sha1": "94e1fd81635472a497ea0eebb65ee308f3299f63",
+          "md5": "1260df6d18cdceb19c4404962a448025"
+        },
+        {
+          "name": "rsmod-json-1.0.0-sources.jar",
+          "url": "rsmod-json-1.0.0-sources.jar",
+          "size": 1702,
+          "sha512": "1a691b07197b3a427f3eb769d44a275067c86f6ff9077e50c5c4570a2c29d126f2333e98de9c0db13e34d9062a01333ff298effefbf54f5bf1daf9ea3f0628cc",
+          "sha256": "d6327dfa84e0ccaffa4d7b9a80d732b623af0c52cacf4f7900c4c7a407ea8212",
+          "sha1": "94e1fd81635472a497ea0eebb65ee308f3299f63",
+          "md5": "1260df6d18cdceb19c4404962a448025"
+        }
+      ]
+    }
+  ]
+}

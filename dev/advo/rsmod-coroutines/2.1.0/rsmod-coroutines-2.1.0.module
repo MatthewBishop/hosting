@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "rsmod-coroutines",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-coroutines-2.1.0.jar",
+          "url": "rsmod-coroutines-2.1.0.jar",
+          "size": 17008,
+          "sha512": "574fdf794769312e446d224b9d155d0fd9427379ef2544bca6bda4bdeae0bace8ba01ccc2eb9b64c8322f3e5b7f8a8f0ba2396e1672d21762fdb1327b13ebee5",
+          "sha256": "54732666fe9d7419468a366daed2f4a53ff56e474fa48c2676ff50c906d53e7f",
+          "sha1": "76f78c006f7525c4bb09991d575b38c36b98ebbb",
+          "md5": "8c33671758103fbb0ada65173ffef860"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-coroutines-2.1.0.jar",
+          "url": "rsmod-coroutines-2.1.0.jar",
+          "size": 17008,
+          "sha512": "574fdf794769312e446d224b9d155d0fd9427379ef2544bca6bda4bdeae0bace8ba01ccc2eb9b64c8322f3e5b7f8a8f0ba2396e1672d21762fdb1327b13ebee5",
+          "sha256": "54732666fe9d7419468a366daed2f4a53ff56e474fa48c2676ff50c906d53e7f",
+          "sha1": "76f78c006f7525c4bb09991d575b38c36b98ebbb",
+          "md5": "8c33671758103fbb0ada65173ffef860"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-coroutines-2.1.0-javadoc.jar",
+          "url": "rsmod-coroutines-2.1.0-javadoc.jar",
+          "size": 261,
+          "sha512": "4e4b7bbe2f3f88fec191844248124bdf03397d400d21673bb1b63a00e477af0568a1cafefd110a1488ff8df55bb3971cc375c0a90f541014493ed50e21cf6c5a",
+          "sha256": "97e7dea4951c8cbcb58e47ca6f1b05683b9c2a79a32d9016fbf26226afe8c9f8",
+          "sha1": "c0c630417e856294da07fd8b880c8953000fca68",
+          "md5": "9d500472f52eb6db7024dedd04b640ab"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-coroutines-2.1.0-sources.jar",
+          "url": "rsmod-coroutines-2.1.0-sources.jar",
+          "size": 5147,
+          "sha512": "f6b1814144de9ecac7f1eb6a0926ab9cdbe26154d076c5097a8c1e3eb4499c66512172b3a640abab6dd6365e5ce579c298cc37cb596645620c4a42ec8d992012",
+          "sha256": "c5c15715d748cf97e8139085811bd9a02686c5dd8c7601d711a6ce457c279a1e",
+          "sha1": "8a1be92602786f4f2fbc10a2a1e5dc0ab1beadd9",
+          "md5": "ee65bfdd4af4aae137dd932b023e2cf3"
+        },
+        {
+          "name": "rsmod-coroutines-2.1.0-sources.jar",
+          "url": "rsmod-coroutines-2.1.0-sources.jar",
+          "size": 5147,
+          "sha512": "f6b1814144de9ecac7f1eb6a0926ab9cdbe26154d076c5097a8c1e3eb4499c66512172b3a640abab6dd6365e5ce579c298cc37cb596645620c4a42ec8d992012",
+          "sha256": "c5c15715d748cf97e8139085811bd9a02686c5dd8c7601d711a6ce457c279a1e",
+          "sha1": "8a1be92602786f4f2fbc10a2a1e5dc0ab1beadd9",
+          "md5": "ee65bfdd4af4aae137dd932b023e2cf3"
+        }
+      ]
+    }
+  ]
+}

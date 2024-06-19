@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "rsmod-protocol",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-protocol-1.0.0.jar",
+          "url": "rsmod-protocol-1.0.0.jar",
+          "size": 21897,
+          "sha512": "ba7aa147c06558fe0f1af7f3a04f56ba2940bcb66ab04c72f555d8f6b1c7999e4eb25802db1c5e577f38bff56a522cfe3aaad319285861775f08203854a35a82",
+          "sha256": "7b24c80d9b5f9110c7340e8ddaa162ed5f92c26f221f5504bda633c02a11548a",
+          "sha1": "a324342df66cd41f4093880440671d22aa534c72",
+          "md5": "ee66a9a4c60408c0b3b3d3deed55dad0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.netty",
+          "module": "netty-transport",
+          "version": {
+            "requires": "4.1.87.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec",
+          "version": {
+            "requires": "4.1.87.Final"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-protocol-1.0.0.jar",
+          "url": "rsmod-protocol-1.0.0.jar",
+          "size": 21897,
+          "sha512": "ba7aa147c06558fe0f1af7f3a04f56ba2940bcb66ab04c72f555d8f6b1c7999e4eb25802db1c5e577f38bff56a522cfe3aaad319285861775f08203854a35a82",
+          "sha256": "7b24c80d9b5f9110c7340e8ddaa162ed5f92c26f221f5504bda633c02a11548a",
+          "sha1": "a324342df66cd41f4093880440671d22aa534c72",
+          "md5": "ee66a9a4c60408c0b3b3d3deed55dad0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-protocol-1.0.0-javadoc.jar",
+          "url": "rsmod-protocol-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "0e91b03a14119f3d2841bac3e32555ded136b0a092d7f08ba9cfb12766bc782e4cbee92f3077bdf1667f41b30b014fb4efd1938d2fdd4c2e3d4a492f0229aeaa",
+          "sha256": "1e8a2ad73986d7ea3c33fd7d311b4137d7e1f58f64e9246710905b8e4f6a4078",
+          "sha1": "7165dc48c7acbb3f6e05d7c159814f14a7ab933d",
+          "md5": "5d1e5ddd76c4a47e09b533823fe5a411"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-protocol-1.0.0-sources.jar",
+          "url": "rsmod-protocol-1.0.0-sources.jar",
+          "size": 6501,
+          "sha512": "0b817d284944476f1a7f22cecc0c050646d10b4e68e0c4335ad326786077d6f86e682b4f9cc283199a39a77dc278b5d194faa5644e8615540a483e46977c2e06",
+          "sha256": "8bd38631f407764f9cf9a7d209e943acc124b9b2c74f8dfa6222347f88aa93f8",
+          "sha1": "b1f0bb4cfa66b49a0d68492768dc9951a302ccf5",
+          "md5": "18b67692573255f5a72cc933e7350a55"
+        },
+        {
+          "name": "rsmod-protocol-1.0.0-sources.jar",
+          "url": "rsmod-protocol-1.0.0-sources.jar",
+          "size": 6501,
+          "sha512": "0b817d284944476f1a7f22cecc0c050646d10b4e68e0c4335ad326786077d6f86e682b4f9cc283199a39a77dc278b5d194faa5644e8615540a483e46977c2e06",
+          "sha256": "8bd38631f407764f9cf9a7d209e943acc124b9b2c74f8dfa6222347f88aa93f8",
+          "sha1": "b1f0bb4cfa66b49a0d68492768dc9951a302ccf5",
+          "md5": "18b67692573255f5a72cc933e7350a55"
+        }
+      ]
+    }
+  ]
+}

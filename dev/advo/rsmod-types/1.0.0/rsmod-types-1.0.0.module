@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "rsmod-types",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-types-1.0.0.jar",
+          "url": "rsmod-types-1.0.0.jar",
+          "size": 29633,
+          "sha512": "42c9537cb359eef782c18b251bd313cfbd0b3337ecbf18f6830a9a502d9812091d23653e60d6836a8f2eb24f4cbf19dc4f2e79fcd3d14e0c00f4a50c64c6a745",
+          "sha256": "14f0cbf88196fa1261fe0b8bbb2470ca1b8923e3e58483d109534e7e351296d7",
+          "sha1": "d304529ca7a13d27ab10eaf08caea474f64ee8b4",
+          "md5": "12744b7e64aced2b79a8ff997327ed85"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-types-1.0.0.jar",
+          "url": "rsmod-types-1.0.0.jar",
+          "size": 29633,
+          "sha512": "42c9537cb359eef782c18b251bd313cfbd0b3337ecbf18f6830a9a502d9812091d23653e60d6836a8f2eb24f4cbf19dc4f2e79fcd3d14e0c00f4a50c64c6a745",
+          "sha256": "14f0cbf88196fa1261fe0b8bbb2470ca1b8923e3e58483d109534e7e351296d7",
+          "sha1": "d304529ca7a13d27ab10eaf08caea474f64ee8b4",
+          "md5": "12744b7e64aced2b79a8ff997327ed85"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-types-1.0.0-javadoc.jar",
+          "url": "rsmod-types-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "04c00bc65ad79fa45a228066ddcb92d1621a9512f2e08357f57ffeb8cadfef7c0d74784bc0a296cffa2df373119aff550db01697d2c1d3324efec771d3564fab",
+          "sha256": "319995d04664aae989234fec5cd904de31172335dcf0d05cfede9fc5aa23ba36",
+          "sha1": "63d33bf8ae9c7d9d62223aef1e1e38383ddd0c08",
+          "md5": "7659c8070247e96ecda5b27bdf2efdc4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-types-1.0.0-sources.jar",
+          "url": "rsmod-types-1.0.0-sources.jar",
+          "size": 5289,
+          "sha512": "8b6f745a059c1218f36b61a374e30cd91d74be85fb827806cfdafbf38f7300af5db5bf913e8a5db44187eefda071f21e0fbcd29d56ba4e4c7c00ef4f7273dd8e",
+          "sha256": "f2bbe762abace85d0a046e09156f1067a54fc4b545990aa91de1915ee933f0ab",
+          "sha1": "e3957f12a16bb12c48a3fdac727a6155a2bfc3bb",
+          "md5": "dbd37f5cad9c81ebe19e9413742dd96f"
+        },
+        {
+          "name": "rsmod-types-1.0.0-sources.jar",
+          "url": "rsmod-types-1.0.0-sources.jar",
+          "size": 5289,
+          "sha512": "8b6f745a059c1218f36b61a374e30cd91d74be85fb827806cfdafbf38f7300af5db5bf913e8a5db44187eefda071f21e0fbcd29d56ba4e4c7c00ef4f7273dd8e",
+          "sha256": "f2bbe762abace85d0a046e09156f1067a54fc4b545990aa91de1915ee933f0ab",
+          "sha1": "e3957f12a16bb12c48a3fdac727a6155a2bfc3bb",
+          "md5": "dbd37f5cad9c81ebe19e9413742dd96f"
+        }
+      ]
+    }
+  ]
+}
