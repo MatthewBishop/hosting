@@ -38,11 +38,11 @@
         {
           "name": "rsmod-protocol-1.0.0.jar",
           "url": "rsmod-protocol-1.0.0.jar",
-          "size": 21897,
-          "sha512": "ba7aa147c06558fe0f1af7f3a04f56ba2940bcb66ab04c72f555d8f6b1c7999e4eb25802db1c5e577f38bff56a522cfe3aaad319285861775f08203854a35a82",
-          "sha256": "7b24c80d9b5f9110c7340e8ddaa162ed5f92c26f221f5504bda633c02a11548a",
-          "sha1": "a324342df66cd41f4093880440671d22aa534c72",
-          "md5": "ee66a9a4c60408c0b3b3d3deed55dad0"
+          "size": 21904,
+          "sha512": "1d988e745bd8d0a2bd69627ad1028f349af4f214c452bf4c91700564b85c08330890dc293ed0569d20eda18a2eabaa1e0f2237ce45b9f6e2c045ff8412012244",
+          "sha256": "a72a6cca0e931f77e6d499cab0fb7166cba700d2e59081d96c7fe02a191197a9",
+          "sha1": "940542140394a985af839320512c40d55527b275",
+          "md5": "9982448262aea6f499dd984f4c51e066"
         }
       ]
     },
@@ -91,11 +91,11 @@
         {
           "name": "rsmod-protocol-1.0.0.jar",
           "url": "rsmod-protocol-1.0.0.jar",
-          "size": 21897,
-          "sha512": "ba7aa147c06558fe0f1af7f3a04f56ba2940bcb66ab04c72f555d8f6b1c7999e4eb25802db1c5e577f38bff56a522cfe3aaad319285861775f08203854a35a82",
-          "sha256": "7b24c80d9b5f9110c7340e8ddaa162ed5f92c26f221f5504bda633c02a11548a",
-          "sha1": "a324342df66cd41f4093880440671d22aa534c72",
-          "md5": "ee66a9a4c60408c0b3b3d3deed55dad0"
+          "size": 21904,
+          "sha512": "1d988e745bd8d0a2bd69627ad1028f349af4f214c452bf4c91700564b85c08330890dc293ed0569d20eda18a2eabaa1e0f2237ce45b9f6e2c045ff8412012244",
+          "sha256": "a72a6cca0e931f77e6d499cab0fb7166cba700d2e59081d96c7fe02a191197a9",
+          "sha1": "940542140394a985af839320512c40d55527b275",
+          "md5": "9982448262aea6f499dd984f4c51e066"
         }
       ]
     },
@@ -132,19 +132,19 @@
           "name": "rsmod-protocol-1.0.0-sources.jar",
           "url": "rsmod-protocol-1.0.0-sources.jar",
           "size": 6501,
-          "sha512": "0b817d284944476f1a7f22cecc0c050646d10b4e68e0c4335ad326786077d6f86e682b4f9cc283199a39a77dc278b5d194faa5644e8615540a483e46977c2e06",
-          "sha256": "8bd38631f407764f9cf9a7d209e943acc124b9b2c74f8dfa6222347f88aa93f8",
-          "sha1": "b1f0bb4cfa66b49a0d68492768dc9951a302ccf5",
-          "md5": "18b67692573255f5a72cc933e7350a55"
+          "sha512": "4753d6be042137518574df3dbef988742390ac3e9498ec56787a459919f078c9f5d651294bc26b1c54026a6bdf56d1b340fffc10e74071e21fb2c348dd294101",
+          "sha256": "0ff5e3d1cbd5b16829d6525eb5b5d6b87512b02ed65e4ee43b048b084cb081cf",
+          "sha1": "cda810606673ff7e51165b5fd91b6199f0fe7956",
+          "md5": "6b22e6880d2c54fb23b3e32eed330095"
         },
         {
           "name": "rsmod-protocol-1.0.0-sources.jar",
           "url": "rsmod-protocol-1.0.0-sources.jar",
           "size": 6501,
-          "sha512": "0b817d284944476f1a7f22cecc0c050646d10b4e68e0c4335ad326786077d6f86e682b4f9cc283199a39a77dc278b5d194faa5644e8615540a483e46977c2e06",
-          "sha256": "8bd38631f407764f9cf9a7d209e943acc124b9b2c74f8dfa6222347f88aa93f8",
-          "sha1": "b1f0bb4cfa66b49a0d68492768dc9951a302ccf5",
-          "md5": "18b67692573255f5a72cc933e7350a55"
+          "sha512": "4753d6be042137518574df3dbef988742390ac3e9498ec56787a459919f078c9f5d651294bc26b1c54026a6bdf56d1b340fffc10e74071e21fb2c348dd294101",
+          "sha256": "0ff5e3d1cbd5b16829d6525eb5b5d6b87512b02ed65e4ee43b048b084cb081cf",
+          "sha1": "cda810606673ff7e51165b5fd91b6199f0fe7956",
+          "md5": "6b22e6880d2c54fb23b3e32eed330095"
         }
       ]
     }

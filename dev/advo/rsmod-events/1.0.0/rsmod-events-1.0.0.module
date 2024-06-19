@@ -38,11 +38,11 @@
         {
           "name": "rsmod-events-1.0.0.jar",
           "url": "rsmod-events-1.0.0.jar",
-          "size": 8407,
-          "sha512": "89efa79c7c4d10939958085af7c68cc8fd6ded287ae7843adada21db82424cb0537b0f70c5b6270aeb404144c05c2ea42b7c478de0b8c389536520f9749ebea0",
-          "sha256": "1d38b3e250118d6fdd6334c1c976266fb87af30384df9f206521a7720356c0f1",
-          "sha1": "e1bd556a6c5c2799eacadf3c30668e46114cfaea",
-          "md5": "0f6cb7859a3d421897baca6afc1cb5da"
+          "size": 8401,
+          "sha512": "17fdb35c9af773d22c2ec454c9ff663f62d2f985796651ba101f5ea8c3559b852b01918b8f93ebe34100af240c0a30cef21c56460d40773fd051987aa6bc6238",
+          "sha256": "bbacd35a84e6acf9030ce569d324952db785fb226e556c11b96ba05fb0bf7992",
+          "sha1": "bac29e99a8fc102d8c6f60c987610eb0aa2d334b",
+          "md5": "46feed1d6a2805070f35d9a19496ee6c"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "rsmod-events-1.0.0.jar",
           "url": "rsmod-events-1.0.0.jar",
-          "size": 8407,
-          "sha512": "89efa79c7c4d10939958085af7c68cc8fd6ded287ae7843adada21db82424cb0537b0f70c5b6270aeb404144c05c2ea42b7c478de0b8c389536520f9749ebea0",
-          "sha256": "1d38b3e250118d6fdd6334c1c976266fb87af30384df9f206521a7720356c0f1",
-          "sha1": "e1bd556a6c5c2799eacadf3c30668e46114cfaea",
-          "md5": "0f6cb7859a3d421897baca6afc1cb5da"
+          "size": 8401,
+          "sha512": "17fdb35c9af773d22c2ec454c9ff663f62d2f985796651ba101f5ea8c3559b852b01918b8f93ebe34100af240c0a30cef21c56460d40773fd051987aa6bc6238",
+          "sha256": "bbacd35a84e6acf9030ce569d324952db785fb226e556c11b96ba05fb0bf7992",
+          "sha1": "bac29e99a8fc102d8c6f60c987610eb0aa2d334b",
+          "md5": "46feed1d6a2805070f35d9a19496ee6c"
         }
       ]
     },
@@ -118,19 +118,19 @@
           "name": "rsmod-events-1.0.0-sources.jar",
           "url": "rsmod-events-1.0.0-sources.jar",
           "size": 1894,
-          "sha512": "8eefe0fe06353aa94efc4ebaf1712035af9c4f489e762d1cc0c912440553aa76e8334ecc635f21bfaf5d1f23dfb6004941236a8a961c2203ef64953da61f052c",
-          "sha256": "090224055cce43840b0938864fc7943c7a3076964b0f7f3702abb6cb04c9f582",
-          "sha1": "8b5e4a9b17206376e771df7eaa621a5d54c6c433",
-          "md5": "ecf3ee2cf735b632fca5fbbd3d7bb806"
+          "sha512": "04fa28d4803cef0c5a3c97169747632523c33bc3e8ddac82cea0b087242a446c9ff81d3f0a4b4d4dbf7c132794aaf31362b27f3b6e17704e82228344b0546a13",
+          "sha256": "bbab1a79ee24c712c4b00284ed53ef4ed6bcc2646df3cd65d792a130c6933531",
+          "sha1": "bd709c7ae6813a15b8ac19d7ec6336174e35e0e0",
+          "md5": "5ffade10e8e2f8c1672d1d786d6f2ec0"
         },
         {
           "name": "rsmod-events-1.0.0-sources.jar",
           "url": "rsmod-events-1.0.0-sources.jar",
           "size": 1894,
-          "sha512": "8eefe0fe06353aa94efc4ebaf1712035af9c4f489e762d1cc0c912440553aa76e8334ecc635f21bfaf5d1f23dfb6004941236a8a961c2203ef64953da61f052c",
-          "sha256": "090224055cce43840b0938864fc7943c7a3076964b0f7f3702abb6cb04c9f582",
-          "sha1": "8b5e4a9b17206376e771df7eaa621a5d54c6c433",
-          "md5": "ecf3ee2cf735b632fca5fbbd3d7bb806"
+          "sha512": "04fa28d4803cef0c5a3c97169747632523c33bc3e8ddac82cea0b087242a446c9ff81d3f0a4b4d4dbf7c132794aaf31362b27f3b6e17704e82228344b0546a13",
+          "sha256": "bbab1a79ee24c712c4b00284ed53ef4ed6bcc2646df3cd65d792a130c6933531",
+          "sha1": "bd709c7ae6813a15b8ac19d7ec6336174e35e0e0",
+          "md5": "5ffade10e8e2f8c1672d1d786d6f2ec0"
         }
       ]
     }
