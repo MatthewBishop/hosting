@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "rsmod-cache-packer",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-cache-packer-1.0.0.jar",
+          "url": "rsmod-cache-packer-1.0.0.jar",
+          "size": 78095,
+          "sha512": "ae5151feb83fb0af6b794e0b439583daa81bc0c5cb8491569b124aaf82be4806c5e9049ad6839b8fce3a319d920c6188c2a7794ffc0762873d295dcba0c925da",
+          "sha256": "55f8b04b4dd79e9f427641c946f68ed6826addc3eb67ced011b073856dd11abb",
+          "sha1": "09cb7b222eb189b89784d73e9c9c1e52c646e44e",
+          "md5": "8ad97e448d75dea523899950952a24d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.advo",
+          "module": "rsmod-buffer",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-config",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-cache-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-cache",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-types",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-toml",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger-jvm",
+          "version": {
+            "requires": "1.0.5"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-cache",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-cache-packer-1.0.0.jar",
+          "url": "rsmod-cache-packer-1.0.0.jar",
+          "size": 78095,
+          "sha512": "ae5151feb83fb0af6b794e0b439583daa81bc0c5cb8491569b124aaf82be4806c5e9049ad6839b8fce3a319d920c6188c2a7794ffc0762873d295dcba0c925da",
+          "sha256": "55f8b04b4dd79e9f427641c946f68ed6826addc3eb67ced011b073856dd11abb",
+          "sha1": "09cb7b222eb189b89784d73e9c9c1e52c646e44e",
+          "md5": "8ad97e448d75dea523899950952a24d2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-cache-packer-1.0.0-javadoc.jar",
+          "url": "rsmod-cache-packer-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "4df6e491b210458f7673278e3a660be130b6b06d303db4f1d3b6d0ea1283231c1d02c3dd1ea1f8813fb26cb1df31f44c6dfecb68a5266612c8032d98ca20fa98",
+          "sha256": "eef5fe368fff9e71ed394a2845f09a387bf08cf30fc5bf370e894e9d32c5b677",
+          "sha1": "d614e7d25c63f8c474677222bb2d24c8a4d16ddb",
+          "md5": "b4a72bfc60dbb9ad1c60bfabd64a23a9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-cache-packer-1.0.0-sources.jar",
+          "url": "rsmod-cache-packer-1.0.0-sources.jar",
+          "size": 11194,
+          "sha512": "58e253d3d36214232b61829310e0e6fb252d9991b3c829f1aed52336af6f18c1b5aa3c54cb98dc5efebf9dc3c5fdfe3f548b8571d1673ca43015357f06101da2",
+          "sha256": "ce9eb481aa752179d1ba536e6eb12cf5a688ae3b1937132f00a94e6d72b34bb7",
+          "sha1": "d493a8884e6128690f7893acd2d750a9910ceaca",
+          "md5": "78c613849a4e9c1be4cfd5c34da9c59f"
+        },
+        {
+          "name": "rsmod-cache-packer-1.0.0-sources.jar",
+          "url": "rsmod-cache-packer-1.0.0-sources.jar",
+          "size": 11194,
+          "sha512": "58e253d3d36214232b61829310e0e6fb252d9991b3c829f1aed52336af6f18c1b5aa3c54cb98dc5efebf9dc3c5fdfe3f548b8571d1673ca43015357f06101da2",
+          "sha256": "ce9eb481aa752179d1ba536e6eb12cf5a688ae3b1937132f00a94e6d72b34bb7",
+          "sha1": "d493a8884e6128690f7893acd2d750a9910ceaca",
+          "md5": "78c613849a4e9c1be4cfd5c34da9c59f"
+        }
+      ]
+    }
+  ]
+}

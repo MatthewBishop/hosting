@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "rsmod-types-generator",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-types-generator-1.0.0.jar",
+          "url": "rsmod-types-generator-1.0.0.jar",
+          "size": 32750,
+          "sha512": "e6102b881ea6e22b81f1dd883859f2cef0f15ed71406f73d23863dc503e90c44a1dbeb1b9527093222535152afe7f72d21908bb05e912d2dc98eec55488cb959",
+          "sha256": "4dc028f1cacde1411dd548c32692cdf41a526da9b1555f925b5deaedcfa999bd",
+          "sha1": "d397e170d4f39d656c4ce934663d58c0f53bc513",
+          "md5": "eacac548d32eb047c35e865a9b877a05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.advo",
+          "module": "rsmod-buffer",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-config",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-cache-api",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-types",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-toml",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-types-generator-1.0.0.jar",
+          "url": "rsmod-types-generator-1.0.0.jar",
+          "size": 32750,
+          "sha512": "e6102b881ea6e22b81f1dd883859f2cef0f15ed71406f73d23863dc503e90c44a1dbeb1b9527093222535152afe7f72d21908bb05e912d2dc98eec55488cb959",
+          "sha256": "4dc028f1cacde1411dd548c32692cdf41a526da9b1555f925b5deaedcfa999bd",
+          "sha1": "d397e170d4f39d656c4ce934663d58c0f53bc513",
+          "md5": "eacac548d32eb047c35e865a9b877a05"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-types-generator-1.0.0-javadoc.jar",
+          "url": "rsmod-types-generator-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "a446651e88a7ea55d3060dcea57a20076e1c6a807ffe99c03006159553261a43881bbe711f3604ee9e2181b1e42e2fae69cb0c641d10176b97046141a12bb015",
+          "sha256": "9ef1cc9062c33efe572488e9bd0a7686a0185eeb0372f9b3b9cc219ecb6e38b3",
+          "sha1": "3ed3be84b66734e8819daf47e08ff566e77a1585",
+          "md5": "96e0bcfdb67a57d2ede09d11539826a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-types-generator-1.0.0-sources.jar",
+          "url": "rsmod-types-generator-1.0.0-sources.jar",
+          "size": 3985,
+          "sha512": "1c334eea3031f6fe71c9e7515bec774560f40d60682dad8f1e3958787cecd6e062e2fb9522b6e00fcd7f118ef41dd6c884755afbe091f4ef8ef0e281cec511c8",
+          "sha256": "9ef65d064babbab02316e0e57fa4f1084f0f016203166a116d5864e57d473107",
+          "sha1": "3efc7d0613a7e235c45aba516b9927f1f25142e1",
+          "md5": "c25b34c3a1bbce1e5d029911a298071d"
+        },
+        {
+          "name": "rsmod-types-generator-1.0.0-sources.jar",
+          "url": "rsmod-types-generator-1.0.0-sources.jar",
+          "size": 3985,
+          "sha512": "1c334eea3031f6fe71c9e7515bec774560f40d60682dad8f1e3958787cecd6e062e2fb9522b6e00fcd7f118ef41dd6c884755afbe091f4ef8ef0e281cec511c8",
+          "sha256": "9ef65d064babbab02316e0e57fa4f1084f0f016203166a116d5864e57d473107",
+          "sha1": "3efc7d0613a7e235c45aba516b9927f1f25142e1",
+          "md5": "c25b34c3a1bbce1e5d029911a298071d"
+        }
+      ]
+    }
+  ]
+}
