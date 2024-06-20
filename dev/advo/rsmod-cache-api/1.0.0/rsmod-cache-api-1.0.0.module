@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "rsmod-cache-api",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.advo",
+          "module": "rsmod-cache",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-cache-api-1.0.0.jar",
+          "url": "rsmod-cache-api-1.0.0.jar",
+          "size": 87057,
+          "sha512": "3441190408c3a46d8eae5e0aef4871b93395f2f2a814e4dc0b5f99ca53eecaea2d51923411912e6bef90bb9f3c12c834b2fcf43a1371568f2bfb33e05b5d5bd5",
+          "sha256": "9e57c22ed659278b00cc7b4c4fd51075f049d9fcafc005a84bb36ce8d447be50",
+          "sha1": "7e1eb46d4e53f535f1a46b0505f9045e6802383c",
+          "md5": "c9d17554f4a87dc0508998a18f66a439"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.advo",
+          "module": "rsmod-config",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-map",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-pathfinder",
+          "version": {
+            "requires": "5.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-json",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-types",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.1.87.Final"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-cache",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-crypto",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.openrs2",
+          "module": "openrs2-buffer",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.advo",
+          "module": "rsmod-cache",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-cache-api-1.0.0.jar",
+          "url": "rsmod-cache-api-1.0.0.jar",
+          "size": 87057,
+          "sha512": "3441190408c3a46d8eae5e0aef4871b93395f2f2a814e4dc0b5f99ca53eecaea2d51923411912e6bef90bb9f3c12c834b2fcf43a1371568f2bfb33e05b5d5bd5",
+          "sha256": "9e57c22ed659278b00cc7b4c4fd51075f049d9fcafc005a84bb36ce8d447be50",
+          "sha1": "7e1eb46d4e53f535f1a46b0505f9045e6802383c",
+          "md5": "c9d17554f4a87dc0508998a18f66a439"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-cache-api-1.0.0-javadoc.jar",
+          "url": "rsmod-cache-api-1.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "837534c6abcbebeb1658a2e660c24d941b8121bcfc3311f5935898ae3e96d050fdbb09be9d50fee9279293337e581329ccc69160115175ded4dd47acc356ded5",
+          "sha256": "bec63e92ed83a55d5985e9495140c4b8cf1ad74ea0bcdb6be95bb769ca5fb718",
+          "sha1": "428c0e31ab015ac25a5739330ba01468bd0b0f6a",
+          "md5": "de5970e64c679e6989ef1943c6adbccd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-cache-api-1.0.0-sources.jar",
+          "url": "rsmod-cache-api-1.0.0-sources.jar",
+          "size": 26961,
+          "sha512": "39a0b744bdbbb3d8099e287921b206ba18d47b1a9fe9b608dbb5d63484b42ca0e9901a8af13002781a7ca7b617a3895c02077f8519fcb740425fb8b712c7e238",
+          "sha256": "0b13495fcbcf96e08c8ee911477cf97b10cc672c75693f4f34f9dc57d42491ae",
+          "sha1": "884a26f00024f2c0f2c7a5a713fdfefc15a1037e",
+          "md5": "0bde89ae791f7a270929892e2b811944"
+        },
+        {
+          "name": "rsmod-cache-api-1.0.0-sources.jar",
+          "url": "rsmod-cache-api-1.0.0-sources.jar",
+          "size": 26961,
+          "sha512": "39a0b744bdbbb3d8099e287921b206ba18d47b1a9fe9b608dbb5d63484b42ca0e9901a8af13002781a7ca7b617a3895c02077f8519fcb740425fb8b712c7e238",
+          "sha256": "0b13495fcbcf96e08c8ee911477cf97b10cc672c75693f4f34f9dc57d42491ae",
+          "sha1": "884a26f00024f2c0f2c7a5a713fdfefc15a1037e",
+          "md5": "0bde89ae791f7a270929892e2b811944"
+        }
+      ]
+    }
+  ]
+}
