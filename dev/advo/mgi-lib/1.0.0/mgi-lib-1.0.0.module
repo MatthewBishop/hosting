@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo",
+    "module": "mgi-lib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mgi-lib-1.0.0.jar",
+          "url": "mgi-lib-1.0.0.jar",
+          "size": 65526,
+          "sha512": "d73dcdc1caa910fe1592a9b774780150172fdad8f24552590128e19037af3170f0cdf7df9fe4a270e33211f6f257893cb14e8b7e8ebc1ebb4543cabbd3bf346f",
+          "sha256": "4e3ea0866f56ea9f696ea18fd385481071d050081a31ac1f6467a05475bd4747",
+          "sha1": "c08a85c50a1b41867d605f1cbba1f8ebfb5a742c",
+          "md5": "826f7d042ec98cf08c377b5b79f4bc23"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mgi-lib-1.0.0.jar",
+          "url": "mgi-lib-1.0.0.jar",
+          "size": 65526,
+          "sha512": "d73dcdc1caa910fe1592a9b774780150172fdad8f24552590128e19037af3170f0cdf7df9fe4a270e33211f6f257893cb14e8b7e8ebc1ebb4543cabbd3bf346f",
+          "sha256": "4e3ea0866f56ea9f696ea18fd385481071d050081a31ac1f6467a05475bd4747",
+          "sha1": "c08a85c50a1b41867d605f1cbba1f8ebfb5a742c",
+          "md5": "826f7d042ec98cf08c377b5b79f4bc23"
+        }
+      ]
+    }
+  ]
+}
