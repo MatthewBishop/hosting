@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.advo.neptune",
+    "module": "runescript-parser",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runescript-parser-1.0.0.jar",
+          "url": "runescript-parser-1.0.0.jar",
+          "size": 213235,
+          "sha512": "dccd607794f1c7488f9169efb5185ac9b7ad623c7ec49b949f173a9f1027ad18de833e97926e798b9b442b895d34a8be8eaa2895493f3178c0da83184ac00008",
+          "sha256": "277d5bc60b0cbd6749573e032d992adf0d92859ba10ba6913943b232227da046",
+          "sha1": "462564d05e7879ebb6009e829d6b9bdae1b62f12",
+          "md5": "9081c8bdaa99ed2d33cf0c7d8fc30006"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.michael-bull.kotlin-inline-logger",
+          "module": "kotlin-inline-logger",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.0-jre"
+          },
+          "excludes": [
+            {
+              "group": "com.google.j2objc",
+              "module": "j2objc-annotations"
+            },
+            {
+              "group": "com.google.code.findbugs",
+              "module": "jsr305"
+            },
+            {
+              "group": "org.codehaus.mojo",
+              "module": "animal-sniffer-annotations"
+            },
+            {
+              "group": "com.google.errorprone",
+              "module": "error_prone_annotations"
+            }
+          ]
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4-runtime",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runescript-parser-1.0.0.jar",
+          "url": "runescript-parser-1.0.0.jar",
+          "size": 213235,
+          "sha512": "dccd607794f1c7488f9169efb5185ac9b7ad623c7ec49b949f173a9f1027ad18de833e97926e798b9b442b895d34a8be8eaa2895493f3178c0da83184ac00008",
+          "sha256": "277d5bc60b0cbd6749573e032d992adf0d92859ba10ba6913943b232227da046",
+          "sha1": "462564d05e7879ebb6009e829d6b9bdae1b62f12",
+          "md5": "9081c8bdaa99ed2d33cf0c7d8fc30006"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "runescript-parser-1.0.0-sources.jar",
+          "url": "runescript-parser-1.0.0-sources.jar",
+          "size": 67355,
+          "sha512": "fbca86ac40b34678fbf5935165939fa8d899bb46da53997de0834bc3f587531b144d1619df8fc773a8382df49e5d68677f32810ef09778cb3f4c363caf2fd222",
+          "sha256": "f08d3c8ac7254d9fdbd2c81e5057b48d4d16a3ef38c76483f6c7543179f0dca0",
+          "sha1": "251c5625c5b0c2828c477917879d45736f6a0d06",
+          "md5": "14a23cc779ae171fe674fb7ba57afda7"
+        },
+        {
+          "name": "runescript-parser-1.0.0-sources.jar",
+          "url": "runescript-parser-1.0.0-sources.jar",
+          "size": 67355,
+          "sha512": "fbca86ac40b34678fbf5935165939fa8d899bb46da53997de0834bc3f587531b144d1619df8fc773a8382df49e5d68677f32810ef09778cb3f4c363caf2fd222",
+          "sha256": "f08d3c8ac7254d9fdbd2c81e5057b48d4d16a3ef38c76483f6c7543179f0dca0",
+          "sha1": "251c5625c5b0c2828c477917879d45736f6a0d06",
+          "md5": "14a23cc779ae171fe674fb7ba57afda7"
+        }
+      ]
+    }
+  ]
+}
